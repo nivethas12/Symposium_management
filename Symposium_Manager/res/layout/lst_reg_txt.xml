@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp">
+
+        <TextView
+            android:id="@+id/TxtEIDvsxVR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.11"
+            android:text="Event-ID :"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/mediumvioletred" />
+
+        <TextView
+            android:id="@+id/TxtEIDVSEVR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.48"
+            android:text="EID"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/blue" />
+
+    </LinearLayout>
+    
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp">
+
+        <TextView
+            android:id="@+id/TxtENameVESxVR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.15"
+            android:text="Event :"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/blue" />
+
+        <TextView
+            android:id="@+id/TxtENameVSEVR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.48"
+            android:text="Event"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/mediumvioletred" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp">
+
+        <TextView
+            android:id="@+id/TxtIUNVSExVR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.11"
+            android:text="Institution:"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/brown" />
+
+        <TextView
+            android:id="@+id/TxtIUNVSEVR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.48"
+            android:text="Institution"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/blue" />
+
+    </LinearLayout>
+    
+ 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp">
+
+        <TextView
+            android:id="@+id/TxtVenueVSExVR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.05"
+            android:text="Venue:"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/mediumvioletred" />
+
+        <TextView
+            android:id="@+id/TxtVenueCSEVR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.48"
+            android:text="Venue"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/blue" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp">
+
+        <TextView
+            android:id="@+id/TxtDTVSExVR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.08"
+            android:text="Date:"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/blue" />
+
+        <TextView
+            android:id="@+id/TxtDTVSEVR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.48"
+            android:text="Date"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/chocolate" />
+    </LinearLayout>
+        
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp">
+
+        <TextView
+            android:id="@+id/TxtSUNVSExVR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Student Username:"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/mediumvioletred" />
+
+        <TextView
+            android:id="@+id/TxtSUNVSEVR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.48"
+            android:text="StuUN"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/blue" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp">
+
+        <TextView
+            android:id="@+id/TxtSNameVSExVR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.05"
+            android:text="Student Name:"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/blue" />
+
+        <TextView
+            android:id="@+id/TxtSNameVSEVR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.48"
+            android:text="StuName"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/mediumvioletred" />
+    </LinearLayout>
+	
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp">
+
+        <TextView
+            android:id="@+id/TxtDeptVSExVR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Department:"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/mediumvioletred" />
+
+        <TextView
+            android:id="@+id/TxtDeptVSEVR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.48"
+            android:text="Department"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/blue" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp">
+
+        <TextView
+            android:id="@+id/TxtCNOVSExVR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.08"
+            android:text="Contact No.:"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/blue" />
+
+        <TextView
+            android:id="@+id/TxtCNOVSEVR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.48"
+            android:text="CNO"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/chocolate" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp">
+
+        <TextView
+            android:id="@+id/TxtAONVSExVR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Applied On:"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/mediumvioletred" />
+
+        <TextView
+            android:id="@+id/TxtAONVSEVR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.48"
+            android:text="Applied On"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/blue" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/TxtLineSFVR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="________________________________"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/brown" />
+
+</LinearLayout>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/TxtRegUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/darkgoldenrod"
+        android:gravity="center"
+        android:paddingTop="@dimen/activity_horizontal_margin"
+        android:text="Student Registration"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/seashell" />
+
+    <EditText
+        android:id="@+id/TxtNameUR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName" />
+ 
+   <EditText
+       android:id="@+id/TxtMbUR"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:ems="10"
+       android:hint="Mobile Number"
+       android:inputType="phone" />
+
+      <EditText
+        android:id="@+id/TxtUNUR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="textPersonName" />
+      
+    <EditText
+        android:id="@+id/TxtPwdUR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword" />
+    <EditText
+        android:id="@+id/TxtCgeUR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="College"
+        android:inputType="textPersonName" />
+    <EditText
+        android:id="@+id/TxtRegNoUR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Registration Number"
+        android:inputType="textPersonName" />
+    <EditText
+        android:id="@+id/TxtDeptUR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Department"
+        android:inputType="textPersonName" />
+   <EditText
+        android:id="@+id/TxtAddrUR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Address"
+        android:inputType="textPersonName" />
+   
+    <EditText
+        android:id="@+id/TxtCityUR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="City"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/TxtStateUR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="State"
+        android:inputType="textPersonName" />
+    
+    
+    <EditText
+        android:id="@+id/TxtCountryUR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Country"
+        android:inputType="textPersonName" />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/CmdSubUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.52"
+            android:text="Submit"
+			    android:background="@color/darkolivegreen"
+                android:textColor="@color/azure" 
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"/>
+
+        <Button
+            android:id="@+id/CmdBackUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.52"
+            android:text="Back"
+			    android:background="@color/darkolivegreen"
+                android:textColor="@color/azure"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                 />
+    </LinearLayout>
+
+</LinearLayout>

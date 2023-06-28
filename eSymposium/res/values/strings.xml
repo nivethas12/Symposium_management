@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">eSymposium</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+     <color name="mistyrose">#696969</color>
+    <color name="blue">#0000FF</color>
+    <color name="brown">#A52A2A</color>
+    <color name="cadetblue">#5F9EA0</color>
+    <color name="crimson">#DC143C</color>
+    <color name="darkorchid">#9932CC</color>
+    <color name="forestgreen">#228b22</color>
+    <color name="gold">#FFD700</color>
+    <color name="lightcoral">#F08080</color>
+    <color name="mediumvioletred">#C71585</color>
+    <color name="orangered">#FF4500</color>
+    <color name="sandybrown">#F4A460</color>
+    <color name="yellowgreen">#9ACD32</color>
+    <color name="seashell">#FFF5EE</color>
+    <color name="gainsboro">#dcdcdc</color>
+    <color name="aliceblue">#f0f8ff</color>
+    <color name="antiquewhite">#faebd7</color>
+    <color name="aquamarine">#7fffd4</color>
+    <color name="azure">#f0ffff</color>
+    <color name="beige">#f5f5dc</color>
+    <color name="bisque">#ffe4c4</color>
+    <color name="burlywood">#deb887</color>
+    <color name="chartreuse">#7fff00</color>
+    <color name="chocolate">#d2691e</color>
+    <color name="cornflowerblue">#6495ed</color>
+    <color name="cornsilk">#fff8dc</color>
+    <color name="darkcyan">#008b8b</color>
+    <color name="darkgoldenrod">#b8860b</color>
+    <color name="darkgray">#a9a9a9</color>
+    <color name="darkkhaki">#bdb76b</color>
+    <color name="darkolivegreen">#556b2f</color>
+    <color name="darkseagreen">#8fbc8f</color>
+    <color name="darkslateblue">#483d8b</color>
+    <color name="deeppink">#ff1493</color>
+    <color name="deepskyblue">#00bfff</color>
+    <color name="honeydew">#f0fff0</color>
+    <color name="hotpink">#ff69b4</color>
+    <color name="indianred">#cd5c5c</color>
+    <color name="khaki">#f0e68c</color>
+    <color name="lavender">#e6e6fa</color>
+    <color name="lavenderblush">#fff0f5</color>
+    <color name="lemonchiffon">#fffacd</color>
+    <color name="lightblue">#add8e6</color>
+    <color name="lightsteelblue">#b0c4de</color>
+    <color name="mediumspringgreen">#00fa9a</color>
+    <color name="mediumturquoise">#48d1cc</color>
+    <color name="navajowhite">#ffdead</color>
+    <color name="palegoldenrod">#eee8aa</color>
+    <color name="palegreen">#98fb98</color>
+    <color name="palevioletred">#db7093</color>
+    <color name="papayawhip">#ffefd5</color>
+    <color name="plum">#dda0dd</color>
+    <color name="powderblue">#b0e0e6</color>
+    <color name="rosybrown">#bc8f8f</color>
+    <color name="steelblue">#4682b4</color>
+    <color name="tan">#d2b48c</color>
+    <color name="thistle">#d8bfd8</color>
+    <color name="violet">#ee82ee</color>
+    <color name="wheat">#f5deb3</color>   
+</resources>

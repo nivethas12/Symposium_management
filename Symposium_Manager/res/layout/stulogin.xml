@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1sdulPL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/darkolivegreen"
+        android:gravity="center"
+        android:paddingTop="@dimen/activity_horizontal_margin"
+        android:text="Student Login"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/seashell"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/TxtUNUL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Username"
+            android:textColorHint="@color/brown" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/TxtPasswordUL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColorHint="@color/brown" />
+
+    </LinearLayout>
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center" 
+        android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/CmdLoginUL"
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.50"
+                android:background="@color/deepskyblue"
+                android:text="Login"
+                android:textColor="@color/mediumvioletred" />
+			
+			<Button
+			    android:id="@+id/CmdRegisterUL"
+			    android:layout_width="50dp"
+			    android:layout_height="wrap_content"
+			    android:layout_weight="0.42"
+			    android:background="@color/chocolate"
+			    android:text="Registration"
+			    android:textColor="@color/azure" />
+
+        </LinearLayout>
+</LinearLayout>
+      
+</LinearLayout>

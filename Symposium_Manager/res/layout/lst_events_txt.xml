@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp">
+
+        <TextView
+            android:id="@+id/TxtEIDvsx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.11"
+            android:text="Event-ID :"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/mediumvioletred" />
+
+        <TextView
+            android:id="@+id/TxtEIDVSE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.48"
+            android:text="EID"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/blue" />
+
+    </LinearLayout>
+    
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp">
+
+        <TextView
+            android:id="@+id/TxtENameVESx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.15"
+            android:text="Event :"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/blue" />
+
+        <TextView
+            android:id="@+id/TxtENameVSE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.48"
+            android:text="Event"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/mediumvioletred" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp">
+
+        <TextView
+            android:id="@+id/TxtIUNVSEx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.11"
+            android:text="Institution:"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/brown" />
+
+        <TextView
+            android:id="@+id/TxtIUNVSE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.48"
+            android:text="Institution"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/blue" />
+
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp">
+
+        <TextView
+            android:id="@+id/TxtMbVSEx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.11"
+            android:text="Contact No.:"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/blue" />
+
+        <TextView
+            android:id="@+id/TxtMbVSE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.48"
+            android:text="Contact Number"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/crimson" />
+
+    </LinearLayout>
+ 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp">
+
+        <TextView
+            android:id="@+id/TxtVenueVSEx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.05"
+            android:text="Venue:"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/mediumvioletred" />
+
+        <TextView
+            android:id="@+id/TxtVenueCSE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.48"
+            android:text="Venue"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/blue" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp">
+
+        <TextView
+            android:id="@+id/TxtDTVSEx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.08"
+            android:text="Date:"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/blue" />
+
+        <TextView
+            android:id="@+id/TxtDTVSE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.48"
+            android:text="Date"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/chocolate" />
+    </LinearLayout>
+        
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp">
+
+        <TextView
+            android:id="@+id/TxtDeptVSEx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Department:"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/mediumvioletred" />
+
+        <TextView
+            android:id="@+id/TxtDeptVSE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.48"
+            android:text="Dept."
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/blue" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp">
+
+        <TextView
+            android:id="@+id/TxtDescVSEx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.05"
+            android:text="Description:"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/blue" />
+
+        <TextView
+            android:id="@+id/TxtDescVSE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.48"
+            android:text="Description"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/mediumvioletred" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/TxtLineSF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="________________________________"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/brown" />
+
+</LinearLayout>

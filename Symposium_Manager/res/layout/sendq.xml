@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/TxtRegUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/darkgoldenrod"
+        android:gravity="center"
+        android:paddingTop="@dimen/activity_horizontal_margin"
+        android:text="Query Master"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/seashell" />
+
+      <EditText
+        android:id="@+id/TxtUNQ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Username"
+        android:enabled="false"
+        android:inputType="textPersonName" />
+      <EditText
+        android:id="@+id/TxtSNameQ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Name"
+        android:enabled="false"
+        android:inputType="textPersonName" />
+      <EditText
+        android:id="@+id/TxtCgeQ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="College"
+        android:enabled="false"
+        android:inputType="textPersonName" />
+      <EditText
+        android:id="@+id/TxtDeptQ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Department"
+        android:enabled="false"
+        android:inputType="textPersonName" />
+      <EditText
+        android:id="@+id/TxtRegNoQ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Reg.No"
+        android:enabled="false"
+        android:inputType="textPersonName" />
+      <EditText
+        android:id="@+id/TxtCNOQ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Contact No."
+        android:enabled="false"
+        android:inputType="textPersonName" />
+      <EditText
+        android:id="@+id/TxtICNOQ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Institution Contact No."
+        android:enabled="false"
+        android:inputType="textPersonName" />
+    <EditText
+        android:id="@+id/TxtQryQ"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="left"
+        android:ems="10"
+        android:gravity="left|top"
+        android:hint="Query"
+        android:inputType="textMultiLine" />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/CmdSendQ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.52"
+            android:text="Send"
+			    android:background="@color/darkolivegreen"
+                android:textColor="@color/azure" 
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"/>
+
+        <Button
+            android:id="@+id/CmdBackQ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.52"
+            android:text="Back"
+			    android:background="@color/darkolivegreen"
+                android:textColor="@color/azure"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                 />
+    </LinearLayout>
+
+</LinearLayout>
